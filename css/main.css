@@ -1,9 +1,105 @@
-/* section  */
+/* hero */
 
-.section-title {
-  margin-bottom: 50px;
+.hero {
+  background-color: grey;
 }
 
-.current {
-  color: var(--accent-color);
+.hero-title {
+  color: var(--white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* benefits */
+
+/* .benefits{} */
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+}
+
+/* products */
+
+/* .products{} */
+
+.products .type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* team */
+
+/* .team{} */
+
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team .position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* clients */
+
+/* .clients */
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--white);
+}
+
+.footer .address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+}
+
+.footer .contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .logo-studio {
+  color: var(--white);
 }
