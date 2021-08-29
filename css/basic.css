@@ -1,27 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
   --accent-color: #2196f3;
   --background-color: #f5f4fa;
   --white: #ffffff;
-  --footer-bg:#2F303A;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --footer-bg: #2f303a;
 }
 
 body {
   background-color: var(--white);
   color: var(--main-color);
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+
+  margin: 0;
 }
 
 ul {
@@ -46,6 +45,15 @@ h6 {
   color: var(--accent-color);
 }
 
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
 /* logo */
 
 .logo {
@@ -64,40 +72,52 @@ h6 {
 }
 
 /* nav */
-.nav{
+.nav {
   font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 /* button */
 
-.primary-button{
-background-color: var(--white);
-color: var(--accent-color);
-font-family: inherit;
-font-weight: 700;
+.button {
+  display: inline-block;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  min-width: 200px;
+  padding: 10px 32px;
+
 }
 
-.secondary-button{
-background-color: var(--accent-color);
-color: var(--white);
-font-family: inherit;
-font-weight: 700;
+.button.primary {
+  background-color: var(--white);
+  color: var(--accent-color);
+}
+
+.button.secondary {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 
 /* section */
 
-.section{
-  margin-bottom: 50px;
+.section {
+ margin-bottom: 94px;
 }
 
-.section-title{
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
