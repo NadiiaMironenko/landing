@@ -95,4 +95,41 @@
 
 /* .clients */
 
+/* portfolio */
+
+.portfolio .btn{
+  padding: 6px 22px;
+}
+
+.portfolio .item:not(:last-child){
+  margin-right: 8px;
+}
+
+.btn{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+
+background-color: var(--white);
+color: var(--secondary-color);
+
+border-radius: 4px;
+}
+
+.classification{
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.portfolio .flex-item{
+  margin: 15px;
+  flex-basis: 370px;
+}
+
+.wrap{
+  flex-wrap: wrap;
+  margin: -15px;
+} 
 

@@ -115,14 +115,6 @@ h6 {
   min-width: 200px;
   padding: 10px 32px;
 
-}
-
-.button.primary {
-  background-color: var(--white);
-  color: var(--accent-color);
-}
-
-.button.secondary {
   background-color: var(--accent-color);
   color: var(--white);
 }
