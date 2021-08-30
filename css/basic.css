@@ -80,6 +80,25 @@ h6 {
   color: var(--secondary-color);
 }
 
+.nav .item:first-child{
+  margin-left: 85px;
+}
+
+
+.nav .item:not(:last-child){
+  margin-right: 50px;
+}
+
+.nav .flex-list{
+  margin-right: auto;
+  align-items: center;
+}
+
+.nav .item{
+  padding-bottom:32px ;
+  padding-top: 32px;
+}
+
 /* button */
 
 .button {
@@ -111,7 +130,8 @@ h6 {
 /* section */
 
 .section {
- margin-bottom: 94px;
+ padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -120,4 +140,47 @@ h6 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--white);
+}
+
+.footer .address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+}
+
+.footer .contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .logo-studio {
+  color: var(--white);
+}
+
+.footer .container{
+  justify-content:space-between;
+}
+
+/* flex */
+
+.flex-list{
+  display: flex;
+}
+
+.flex-item:not(:last-child){
+margin-right: 30px;
 }

@@ -2,6 +2,7 @@
 
 .hero {
   background-color: grey;
+  text-align: center;
 }
 
 .hero-title {
@@ -11,16 +12,24 @@
   font-size: 44px;
   line-height: 1.36;
 
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 
 /* benefits */
 
 /* .benefits{} */
 
-.benefits-title {
+.section.benefits{
+  padding-bottom: 0;
+}
+
+.benefits .section-title{
+  color: transparent;
+}
+
+.benefits .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -28,7 +37,7 @@
   text-transform: uppercase;
 }
 
-.benefits-text {
+.benefits .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -49,12 +58,16 @@
   text-transform: uppercase;
 }
 
+.products .flex-item{
+  width: 370px;
+  text-align: center;
+}
+
 /* team */
 
-.team{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* .team{
+  
+} */
 
 .team .name {
   font-weight: 500;
@@ -74,35 +87,12 @@
   letter-spacing: 0.03em;
 }
 
+.team .flex-item{
+  width: 270px;
+}
+
 /* clients */
 
 /* .clients */
 
-/* footer */
 
-.footer {
-  background-color: var(--footer-bg);
-  color: var(--white);
-}
-
-.footer .address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-
-  letter-spacing: 0.03em;
-}
-
-.footer .contacts {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .logo-studio {
-  color: var(--white);
-}
