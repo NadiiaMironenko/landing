@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -47,6 +47,7 @@ h6 {
 
 .container {
   width: 1200px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -103,6 +104,8 @@ h6 {
 
 .button {
   display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: var(--accent-color);
   border-radius: 4px;
 
   font-family: inherit;
@@ -132,6 +135,7 @@ h6 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 /* footer */
