@@ -198,7 +198,45 @@ position: relative;
 
 /* clients */
 
-/* .clients */
+.clients{
+  display: flex;
+}
+
+.clients button{
+  width: 170px;
+  height: 90px;
+  background-color: var(--white);
+}
+
+.clients .one{
+  width: 44px;
+  height: 49px;
+}
+
+.clients .two{
+  width: 40px;
+  height: 52px;
+}
+
+.clients .three{
+  width:41px ;
+  height: 43px;
+}
+
+.clients .four{
+  width: 80px;
+  height: 42px;
+}
+
+.clients .five{
+  width: 59px;
+  height: 47px;
+}
+
+.clients .six{
+  width: 88px;
+  height: 45px;
+}
 
 /* portfolio */
 
