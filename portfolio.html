@@ -19,18 +19,35 @@
   <body>
     <header>
       <nav class="nav">
-        <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span>Studio</a
-        >
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a class="current" href="./portfolio.html">Портфолио</a></li>
-          <li><a href="./contacts.html">Контакты</a></li>
-        </ul>
-        <ul>
-          <li>info@devstudio.com</li>
-          <li>+38 096 111 11 11</li>
-        </ul>
+        <div class="container flex-list">
+          <a class="logo" href="./index.html">
+            <span class="logo-web">Web</span>Studio</a
+          >
+          <ul class="flex-list">
+            <li class="item"><a href="./index.html">Студия</a></li>
+            <li class="item"><a class="current" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a href="./contacts.html">Контакты</a></li>
+          </ul>
+          <div>
+            <ul class="flex-list">
+            <li class="list-item email">
+              <button class="contacts">
+                <svg class="icon-envelope">
+              <use href="./img/sprite.svg#icon-envelope"></use>
+              </svg> 
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </button>
+            </li>
+            <li class="list-item phone">
+              <button class="contacts">
+              <svg class="icon-phone">
+              <use href="./img/sprite.svg#icon-phone"></use>
+              </svg>
+              <a href="+38 096 111 11 11">+38 096 111 11 11</a>
+            </button></li>
+          </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- portfolio -->
@@ -50,110 +67,128 @@
           <ul class="flex-list wrap">
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port1.jpg" alt="Технокряк" />
                 <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-                <p>
+                <p class="portfolio-type">Веб-сайт</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href=""
-                ><img src="" alt="" />
+                ><img src="./img/port2.jpg" alt="Постер New Orlean vs Golden Star" />
                 <h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-                <p>
+                <p class="portfolio-type">Дизайн</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port3.jpg" alt="Ресторан Seafood" />
                 <h2>Ресторан Seafood</h2>
-                <p>Маркетинг</p>
-                <p>
+                <p class="portfolio-type">Маркетинг</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port4.jpg" alt="Проект Prime" />
                 <h2>Проект Prime</h2>
-                <p>Приложение</p>
-                <p>
+                <p class="portfolio-type">Приложение</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port5.jpg" alt="Проект Boxes" />
                 <h2>Проект Boxes</h2>
-                <p>Веб-сайт</p>
-                <p>
+                <p class="portfolio-type">Веб-сайт</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port6.jpg" alt="Inspiration has no Borders" />
                 <h2>Inspiration has no Borders</h2>
-                <p>Дизайн</p>
-                <p>
+                <p class="portfolio-type">Дизайн</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port7.jpg" alt="Издание Limited Edition" />
                 <h2>Издание Limited Edition</h2>
-                <p>Дизайн</p>
-                <p>
+                <p class="portfolio-type">Дизайн</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port8.jpg" alt="Проект LAB" />
                 <h2>Проект LAB</h2>
-                <p>Маркетинг</p>
-                <p>
+                <p class="portfolio-type">Маркетинг</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
             <li class="flex-item">
               <a href="">
-                <img src="" alt="" />
+                <img src="./img/port9.jpg" alt="Growing Business" />
                 <h2>Growing Business</h2>
-                <p>Приложение</p>
-                <p>
+                <p class="portfolio-type">Приложение</p>
+                <div class="portfolio-overlay">
+                  <p class="description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                 </p>
+                </div>
               </a>
             </li>
           </ul>

@@ -13,6 +13,7 @@
   --background-color: #f5f4fa;
   --white: #ffffff;
   --footer-bg: #2f303a;
+  --transition: transform 250ms linear;
 }
 
 body {
