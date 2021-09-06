@@ -46,6 +46,12 @@ h6 {
   color: var(--accent-color);
 }
 
+.hover:hover,
+.hover:focus{
+  color: var(--accent-color);
+  fill:var(--accent-color) ;
+}
+
 .current::after {
 content: "";
 width: 100%;
