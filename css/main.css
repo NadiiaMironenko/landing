@@ -213,6 +213,11 @@
   height: 90px;
   background-color: var(--white);
   cursor: pointer;
+  border-radius: 4px;
+}
+
+.clients button:hover{
+  border-color: var(--accent-color);
 }
 
 .clients .one {
