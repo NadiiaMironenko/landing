@@ -82,7 +82,7 @@
 }
 
 .antenna .title::before {
-  background-image: url(../img/Group.svg);
+  background-image: url(../img/astronaut\ 1.svg);
 }
 
 .clock .title::before {
@@ -212,6 +212,7 @@
   width: 170px;
   height: 90px;
   background-color: var(--white);
+  cursor: pointer;
 }
 
 .clients .one {
