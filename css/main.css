@@ -37,8 +37,6 @@
 
 /* benefits */
 
-/* .benefits{} */
-
 .section.benefits {
   position: relative;
 
@@ -99,8 +97,6 @@
 
 /* products */
 
-/* .products{} */
-
 .products .type {
   position: absolute;
   width: 370px;
@@ -130,10 +126,6 @@
 }
 
 /* team */
-
-/* .team{
-  
-} */
 
 .section.team {
   background-color: #f5f4fa;
@@ -192,6 +184,11 @@
   margin-bottom: 24px;
 }
 
+.social-button:hover .icon,
+.social-button:focus .icon{
+  fill:var(--accent-color)
+}
+
 .social .icon {
   width: 20px;
   height: 20px;
@@ -214,10 +211,21 @@
   background-color: var(--white);
   cursor: pointer;
   border-radius: 4px;
+  border-color: var(--svg-color);
 }
 
-.clients button:hover{
+.clients .icon{
+  fill: var(--svg-color);
+}
+
+.clients button:hover,
+.clients button:focus{
   border-color: var(--accent-color);
+}
+
+.clients button:hover .icon,
+.clients button:focus .icon{
+  fill:var(--accent-color);
 }
 
 .clients .one {
