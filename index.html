@@ -62,9 +62,41 @@
           <h1 class="hero-title">
             Эффективные решения <br />для вашего бизнеса
           </h1>
-          <button class="button">Заказать услугу</button>
+          <button class="button" data-open-modal>Заказать услугу</button>
         </div>
       </section>
+      <!-- modal -->
+      <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+          <h1 class="modal-title">Оставьте свои данные, мы вам <br/> перезвоним</h1>
+          <form class="modal-form">
+            <div class="form-field">
+            <input type="text" class="modal-input" placeholder=" ">
+            <svg class="icon">
+            <use href="./img/sprite.svg#icon-person-black-modal"></use>
+            </svg>
+            <label class="modal-label">Имя</label>
+          </input>
+            </div>
+            <div class="form-field">
+            <input type="text" class="modal-input" placeholder=" ">
+            <svg class="icon">
+            <use href="./img/sprite.svg#icon-phone-black-modal"></use>
+            </svg>
+            <label class="modal-label">Телефон</label>
+          </input>
+            </div>
+            <div class="form-field">
+            <input type="text" class="modal-input" placeholder=" ">
+            <svg class="icon">
+            <use href="./img/sprite.svg#icon-email-black-modal"></use>
+            </svg>
+            <label class="modal-label">Почта</label>
+          </input>
+            </div>
+          </form>
+        </div>
+      </div>
       <!-- benefits -->
       <section class="section benefits">
         <div class="container">
