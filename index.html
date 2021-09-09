@@ -68,6 +68,11 @@
       <!-- modal -->
       <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
+          <button class="button-close" data-close-modal>
+            <svg class="icon-close">
+          <use href="./img/sprite.svg#icon-cross-modal"></use>
+          </svg>
+          </button>
           <h1 class="modal-title">Оставьте свои данные, мы вам <br/> перезвоним</h1>
           <form class="modal-form">
             <div class="form-field">
@@ -94,7 +99,16 @@
             <label class="modal-label">Почта</label>
           </input>
             </div>
+            <div class="form-comment">
+              <textarea class="form-textarea" placeholder="Комментарий"></textarea>
+            </div>
+              <label class="agreement">
+                <input type="checkbox" name="agreement" value="true" checked>
+                <h2 class="agreement-conditions">Соглашаюсь с рассылкой и принимаю 
+                  <span class="accent">Условия договора</h2></span>
+              </label>
           </form>
+          <button type="button" class="button-submit"><span class="">Отправить</span></button>
         </div>
       </div>
       <!-- benefits -->
