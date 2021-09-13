@@ -197,28 +197,60 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div>
-        <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span>
-          <span class="logo-studio">Studio</span>
-        </a>
-        <address>
-          <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-          <p class="contacts">info@example.com</p>
-          <p class="contacts">+38 099 111 11 11</p>
-        </address>
-      </div>
-      <div>
-        <b>присоединяйтесь</b>
-        <ul>
-          <li><a href="" aria-label="link to Instagram"></a></li>
-          <li><a href="" aria-label="link to Twitter"></a></li>
-          <li><a href="" aria-label="link to Facebook"></a></li>
-          <li><a href="" aria-label="link to Linkedin"></a></li>
-        </ul>
-      </div>
-      <div>
-        <b>Подпишитесь на рассылку</b>
+      <div class="container flex-list">
+        <div class="block">
+          <a class="logo" href="./index.html">
+            <span class="logo-web">Web</span>
+            <span class="logo-studio">Studio</span>
+          </a>
+          <address>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="contacts">info@example.com</p>
+            <p class="contacts">+38 099 111 11 11</p>
+          </address>
+        </div>
+
+        <div class="block">
+          <b>присоединяйтесь</b>
+          <ul class="flex-list">
+            <li class="social-icon">
+              <button class="footer-social">
+                <svg class="icon">
+                  <use href="./img/sprite.svg#icon-instagram-2"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="social-icon">
+              <button class="footer-social">
+                <svg class="icon">
+                  <use href="./img/sprite.svg#icon-twitter-1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="social-icon">
+              <button class="footer-social">
+                <svg class="icon">
+                  <use href="./img/sprite.svg#icon-facebook-1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="social-icon">
+              <button class="footer-social">
+                <svg class="icon">
+                  <use href="./img/sprite.svg#icon-linkedin-1"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <b>подпишитесь на рассылку</b>
+<form class="footer-form">
+  <title>E-mail</title>
+  <input class="footer-input" type="email" placeholder="E-mail">
+  <button class="button" type="button">Подписаться</button>
+</form>
+        </div>
       </div>
     </footer>
   </body>
